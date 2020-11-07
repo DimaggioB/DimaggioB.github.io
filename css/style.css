@@ -1,0 +1,270 @@
+.About {
+  position: relative;
+  left: 100px; /* from the left, in the opposite direction 100 pixels */
+  width: 700px;
+  height: 200px;
+  margin: 25px;
+  margin-bottom: 200px;
+  padding-top: 20px;
+  margin-left: 400px;
+  margin-top: 100px;
+
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+
+.headshot{
+width: 20%;
+padding-left: 20px;
+}
+
+.headshot> img{
+
+
+}
+
+.stool {
+float: right;
+padding-top: 150px;
+padding-left:90px;
+
+}
+.stool{
+  width:550px;
+    margin-bottom: 200px;
+
+}
+.stool >img{
+  width: 100%;
+  /* padding-right: 40px; */
+}
+
+.compressor1 {
+  float: right;
+  padding-top: 35px;
+  margin-left: 50px;
+}
+
+.compressor1{
+  width: 40%;
+  padding-bottom: 5%;
+ /* margin-bottom: 100px; */
+padding-top: 150px;
+
+}
+.compressor1 >img{
+  width: 40%;
+}
+
+.furniture {
+  float: right;
+  padding-top: 50px;
+  /* padding-left: 40px; */
+}
+
+.furniture{
+width: 50%;
+margin-left: 100px;
+  margin-bottom: 90px;
+}
+
+
+.furniture >img{
+  width:100%;
+}
+
+.box1{
+  width: 85%;
+  height: 40%;
+padding-left: 80px;
+  margin-bottom: 200px;
+}
+
+.box2{
+  width: 80%;
+  height: 40%;
+padding-left: 80px;
+  margin-bottom: 200px;
+}
+
+.box3{
+  width: 80%;
+  height: 40%;
+ padding-left: 80px;
+   margin-bottom: 200px;
+}
+
+.group:after {
+  content: "";
+  display: table;
+   clear: both;
+}
+
+
+a {
+  text-decoration: none;
+  transition: 1s;
+  transition-duration: 8ms;
+  transition-timing-function: cubic-bezier(.41,.47,.61,1.03);
+}
+
+a:visited {
+  color: red;
+}
+
+
+a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+a:active {
+  color: black;
+}
+
+ul, li {
+  list-style-type: none;
+  display: inline-flex;
+  padding-left: 5%;
+  padding-right: 5%;
+
+
+
+}
+
+ul {
+  /* width: 75%; */
+/* margin-right: 10% */
+}
+
+li > a {
+  color: black;
+}
+
+
+nav {
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+
+}
+
+nav > a {
+  color: black;
+align-self: center;
+}
+
+form {
+  width: 65%;
+  padding: 2%;
+  margin: 0 auto;
+  background-color: rgba(255,255,255,0.5 ) ;
+align-self: center;
+}
+
+.Contact {
+  /* background-color: blue; */
+  height: 25vh;
+  background-image: url(../img/y-so-serious-white.png);
+background-size: contain;
+/* background-repeat: no-repeat; */
+display: flex;
+flex-direction: row;
+
+}
+
+.emailbox{
+  padding: 2%;
+  width:65%;
+  margin-right: 5%;
+
+
+}
+
+.Submitbutton{
+padding: 2%;
+width: 15%;
+
+}
+
+.animate{
+  animation-name: batman;
+  animation-duration: 5s;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+
+.drop{
+ visibility: hidden;
+
+}
+
+.contact{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.notebox{
+  width: 50%;
+  padding: 5%;
+
+}
+
+
+.socialbox{
+  width: 50%;
+  padding: 5%;
+
+}
+
+
+.socialboxbox{
+  display: flex;
+  flex-direction: column;
+margin-top: 80px;
+}
+
+a.social{
+padding: 5%;
+
+}
+
+
+
+@keyframes batman {
+  0% {transform: translate(0,0);}
+  100% {transform: translate(200px, 0);}
+
+}
+
+
+@media all and (min-width:320px) and (max-width:780px) {
+  .stool{
+    float: none;
+    padding-top: 0;
+    margin-left:0;
+  }
+
+  .furniture{
+    float: none;
+    padding-top: 0;
+    margin-left:0;
+  }
+
+  .compressor{
+    float: none;
+    padding-top: 0;
+    margin-left:0;
+  }
+}
