@@ -1,0 +1,80 @@
+body{
+/* width:65%; */
+  /* background-color: black; */
+}
+
+.hero{
+   margin-left: 425px;
+  /* padding-top:10px; */
+/* align-content: center; */
+width: 40%;
+}
+
+.hero > img {
+
+  width:100%;
+}
+
+.bkgd{
+  /* padding-top: 25px; */
+  background-color: rgba(128, 0, 32, 0.5);
+padding-right: 0px;
+}
+
+.bkgd2{
+
+  background-color: white;
+
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  padding-right: 0px;
+  /* width:80%; */
+}
+
+.row{
+  margin-right: 0px;
+}
+
+.f{
+float: right;
+
+
+}
+
+.Draw{
+  width:80%;
+padding-left: 250px;
+padding-top: 25px;
+/* float: left; */
+}
+
+.Draw > img{
+  width:100%;
+}
+
+.vid{
+  width: 50%;
+  /* float:right; */
+  padding-bottom: 50px;
+  padding-top: 20px;
+margin-left: 350px;
+}
+
+.vid > video{
+
+  width:100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: red;
+}
+
+li > a {
+  color: black;
+}
