@@ -1,0 +1,117 @@
+body {
+  /* width: 85%; */
+margin: 0 auto;
+/* background-color: #ff87b5 */
+ background-color: #d4f0ff;
+ font-family: new-spirit, serif;
+
+font-weight: 300;
+
+font-style: normal;
+}
+
+header{
+background-color: #ff87b5;
+
+}
+
+.logo {
+  width: 300px;
+  height: 250px;
+}
+
+.box1{
+width: 450px;
+height: 500px;
+margin: 0 auto;
+padding-top: 20px;
+
+
+}
+.container1{
+  background-color: #ff87b5;
+  width: 100%;
+
+}
+
+.container{
+  background-color: #d4f0ff;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.row{
+  margin-right: 0px;
+}
+
+
+.button{
+  /* float: right; */
+  padding-top: 50px;
+  padding-bottom: 40px;
+  /* margin-left: 800px; */
+   background-color: #d4f0ff;
+   /* #ff87b5 */
+}
+.btn{
+background-color: #ff87b5;
+
+font-family: brioso-pro, serif;
+
+font-weight: 500;
+
+font-style: italic;
+padding-left: 200px;
+padding-right: 200px;
+
+}
+
+.nav{
+
+font-family: brioso-pro, serif;
+
+font-weight: 500;
+
+font-style: italic;
+}
+
+.about{
+padding-top: 50px;
+  padding-bottom: 50px;
+   background-color: #ff87b5;
+   border-style: solid;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+
+.nav1{
+   background-color: #d4f0ff;
+
+}
+
+.map{
+  float: right;
+  width: 500px;
+  height: 200px;
+}
+
+
+footer{
+  background-color: #b08573;
+  height: 300px;
+  /* width: 300px; */
+}
+
+
+/* .contact{
+  width: 500px;
+
+} */
+
+
+
+li a {
+text-decoration: none;
+color: black;
+font-size: 20px;
+}
